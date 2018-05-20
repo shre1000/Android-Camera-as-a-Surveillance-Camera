@@ -367,10 +367,10 @@ Camera.PictureCallback mCall = new Camera.PictureCallback()
 //                 	Mail m;
 //                     StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 //    		         StrictMode.setThreadPolicy(policy);
-//    				m = new Mail("inbotics.testing@gmail.com", "inbotics"); 
-//    				String[] toArr = {"inbotics.testing@gmail.com"}; // This is an array, you can add more emails, just separate them with a coma
+//    				m = new Mail("abc.testing@gmail.com", "inbotics"); 
+//    				String[] toArr = {"abcs.testing@gmail.com"}; // This is an array, you can add more emails, just separate them with a coma
 //    				m.setTo(toArr); // load array to setTo function
-//    				m.setFrom("inbotics.testing@gmail.com"); // who is sending the email 
+//    				m.setFrom("abc.testing@gmail.com"); // who is sending the email 
 //    				m.setSubject("subject"); 
 //    				m.setBody("your message goes here"); 
 //    		 
@@ -407,10 +407,10 @@ Camera.PictureCallback mCall = new Camera.PictureCallback()
     	Mail m;
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
-		m = new Mail("inbotics.testing0@gmail.com", "inboticstesting"); 
-		String[] toArr = {"inbotics.testing0@gmail.com"}; // This is an array, you can add more emails, just separate them with a coma
+		m = new Mail("abc.testing0@gmail.com", "inboticstesting"); 
+		String[] toArr = {"abc.testing0@gmail.com"}; // This is an array, you can add more emails, just separate them with a coma
 		m.setTo(toArr); // load array to setTo function
-		m.setFrom("inbotics.testing0@gmail.com"); // who is sending the email 
+		m.setFrom("abc.testing0@gmail.com"); // who is sending the email 
 		m.setSubject("Video Survillience"); 
 		m.setBody("Your mobile is moved."); 
 
