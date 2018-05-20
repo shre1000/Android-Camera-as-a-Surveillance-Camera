@@ -142,7 +142,7 @@ int j=0;
 	              
 	                clientSocket.close();
 //	              compressfile("F:\\images\\Capture"+img+".jpg",img);
-//	                SimpleSendEmail smp = new SimpleSendEmail("inbotics.testing0@gmail.com", "inbotics.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\Capture"+img+".jpg");
+//	               
 	               
 	            		sendmail();
 	            	
@@ -198,11 +198,11 @@ int j=0;
 			os.close();
 			ios.close();
 			writer.dispose();
-		SimpleSendEmail smp = new SimpleSendEmail("inbotics.testing0@gmail.com", "inbotics.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\CaptureCOmp"+img+".jpg");
+		SimpleSendEmail smp = new SimpleSendEmail("abc.testing0@gmail.com", "abc.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\CaptureCOmp"+img+".jpg");
 		}
 
 		private static void sendmail() {
-			SimpleSendEmail smp = new SimpleSendEmail("inbotics.testing0@gmail.com", "inbotics.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\Capture001.jpg");
+			SimpleSendEmail smp = new SimpleSendEmail("abc.testing0@gmail.com", "abc.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\Capture001.jpg");
 		}
 	
 
