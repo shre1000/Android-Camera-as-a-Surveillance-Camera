@@ -196,10 +196,7 @@ public class uploadpdf extends HttpServlet {
 //               System.out.println(message);
 //             
 //               clientSocket.close();
-////             compressfile("F:\\images\\Capture"+img+".jpg",img);
-////               SimpleSendEmail smp = new SimpleSendEmail("inbotics.testing0@gmail.com", "inbotics.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\Capture"+img+".jpg");
-//              if(msg.equals("changed")){
-//           		sendmail();
+////            
 //              }
 //               // receive file
 //              
@@ -217,7 +214,7 @@ public class uploadpdf extends HttpServlet {
    
 	
 	private static void sendmail(String string) {
-		SimpleSendEmail smp = new SimpleSendEmail("inbotics.testing0@gmail.com", "inbotics.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting",string);
+		SimpleSendEmail smp = new SimpleSendEmail("abc.testing0@gmail.com", "abc.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "abcstesting",string);
 	}
 
 }
