@@ -99,8 +99,7 @@ public class MyTimerTask extends TimerTask {
         System.out.println("end-start");    
         
        
-//      compressfile("F:\\images\\Capture"+img+".jpg",img);
-//        SimpleSendEmail smp = new SimpleSendEmail("inbotics.testing0@gmail.com", "inbotics.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\Capture"+img+".jpg");
+
        
     		
         // receive file
