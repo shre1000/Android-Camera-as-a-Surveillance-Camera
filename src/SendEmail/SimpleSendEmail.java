@@ -23,11 +23,9 @@ public class SimpleSendEmail {
 
     public SimpleSendEmail(String fromemail, String toemail, String Subject, String message, String password) {
         String host = "smtp.gmail.com";
-//        String to = "hemantkochale@gmail.com";
+
         String to = toemail;
-//        String from = "hemantkochale@gmail.com";
-        //fromemail="pappukochale@gmail.com";
-       // password="pappu123";
+
         String from = fromemail;
         femail = fromemail;
 //        String subject = "My First Email";
@@ -103,11 +101,9 @@ public class SimpleSendEmail {
     
     public SimpleSendEmail(String fromemail, String toemail, String Subject, String message, String password,String Attachment) {
         String host = "smtp.gmail.com";
-//        String to = "hemantkochale@gmail.com";
+
         String to = toemail;
-//        String from = "hemantkochale@gmail.com";
-        //fromemail="pappukochale@gmail.com";
-       // password="pappu123";
+
         String from = fromemail;
         femail = fromemail;
 //        String subject = "My First Email";
