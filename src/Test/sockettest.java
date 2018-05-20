@@ -226,7 +226,7 @@ public class sockettest extends HttpServlet {
 //             
 //               clientSocket.close();
 ////             compressfile("F:\\images\\Capture"+img+".jpg",img);
-////               SimpleSendEmail smp = new SimpleSendEmail("inbotics.testing0@gmail.com", "inbotics.testing0@gmail.com", "Mobile Survillience", "Survillience camera moved", "inboticstesting","F:\\images\\Capture"+img+".jpg");
+////             
 //              if(msg.equals("changed")){
 //           		sendmail();
 //              }
@@ -246,7 +246,7 @@ public class sockettest extends HttpServlet {
    
 	
 	private static void sendmail(String string) {
-		SimpleSendEmail smp = new SimpleSendEmail("www.shreyasi101610@gmail.com", "www.shreyasi101610@gmail.com", "Mobile Survillience", "Survillience camera moved", "narutosakurasasuke3",string);
+		SimpleSendEmail smp = new SimpleSendEmail("abc@gmail.com", "abc@gmail.com", "Mobile Survillience", "Survillience camera moved", "psw",string);
 	}
 
 }
